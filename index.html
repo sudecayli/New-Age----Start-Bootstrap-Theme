@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Age - Start Bootstrap Theme </title>
+    <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-light-subtle shadow fixed-top">
+      <div class="container px-5">
+        <a class="navbar-brand fw-bold" href="#">Candy Crush Saga</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="small">Menu</span>
+          <span class="navbar-toggler-icon small"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div class="navbar-nav ms-auto me-4 my-3 my-lg-2">
+            <a class="nav-link me-lg-3" href="#features-section">Features</a>
+            <a class="nav-link me-lg-3 " href="#getApp">Pricing</a>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn rounded-5 abc mt-3 mt-lg-0"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <div>
+                <i class="fa-solid fa-comment-dots"></i>
+                <span >Send Feedback</span>
+              </div>
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 py-1" id="exampleModalLabel">
+                      Send feedback
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form
+                      action="https://formsubmit.co/sude.cayli.78@gmail.com"
+                      method="POST"
+                    >
+                      <div class="form-floating mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="name"
+                        />
+                        <label for="floatingInput">Full Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="name@example.com"
+                        />
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input
+                          type="phone number"
+                          class="form-control"
+                          id="floatingPassword"
+                          placeholder="Phone-number"
+                        />
+                        <label for="floatingPassword">Phone Number</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea
+                          class="form-control"
+                          placeholder="Leave a comment here"
+                          id="floatingTextarea2"
+                          style="height: 150px"
+                        ></textarea>
+                        <label for="floatingTextarea2">Messages</label>
+                      </div>
+                      <div>
+                        <button
+                          type="submit"
+                          class="btn btn-primary mb-3 form-control rounded-5 py-2 fs-5"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Mashead header  -->
+    <header>
+        <div>
+      <div class="container px-5 mt-lg-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="pt-5 mt-5 text-lg-start text-center">
+              <h1 class="pt-lg-5 mt-5">Play the sweetest game...</h1>
+              <p class="mt-4 text-muted fw-normal lead">
+                Play Candy Crush Saga and switch and match your way through
+                hundreds of levels in this divine puzzle adventure.
+              </p>
+            </div>
+            <div class="d-flex align-items-center flex-lg-row flex-column mt-5">
+              <a href="">
+                <img
+                  src="./assets/images/app-store-badge.png"
+                  class="app-badge"
+                  alt=""
+                />
+              </a>
+
+              <a href="" class="ms-lg-3 mt-lg-0 mt-4">
+                <img
+                  src="./assets/images/Google_Play_Store_badge_EN.svg.png"
+                  class="app-badge"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-5 py-lg-5">
+            <div
+              class="position-relative d-flex align-items-center justify-content-center"
+            >
+              <div class="circle1"></div>
+              <img
+                src="./assets/images/300x0w (1).png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+    <!-- testiomanal aside -->
+    <aside class="aside text-center">
+      <div class="container px-4">
+        <div class="row justify-content-center gx-5 mt-5">
+          <div class="col-xl-8">
+            <div class="fs-1 h2">
+              Join Tiffi and Mr. Toffee on their epic journey in an online game
+              full of delicious treats! Ain't it the sweetest game ever?
+            </div>
+            <img
+              src="./assets/images/Candy_Crush_logo.png"
+              alt=""
+              class="mt-2"
+            />
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- App features section -->
+    <section id="features-section">
+      <div class="container pt-5 pb-5">
+        <div class="row gx-5 pt-5 align-items-center">
+          <div class="col-lg-4 mt-5 pb-5 order-last order-lg-first">
+           
+            <div class="d-flex justify-content-center">
+                <div class="circle-2 mt-5 mb-5 ">
+                  <div class="img-phone d-block"><img
+                      src="./assets/images/300x0w (2).png"
+                      alt=""
+                      class="img-fluid"
+                    /></div>
+                </div>
+                <div class="img-phone-2 d-none"><img
+                    src="./assets/images/300x0w (2).png"
+                    alt=""
+                    class="img-fluid"
+                  /></div></div>
+            
+          </div>
+          <div class="col-lg-8 order-first order-lg-last featuressectionicon row align-items-center justify-content-center ms-2">
+            <div class="row ">
+              <div class="col-md-6">
+                <div class="text-center">
+                  <i class="fa-solid fa-mobile-screen-button fs-1"></i>
+                  <h3 class="mt-2">Contact Us</h3>
+                  <p class="text-muted">
+                    You can contact us 24/7 by phone on 0995 0774 177 and choose
+                    the option that fits your needs to speak to a member of our
+                    team
+                  </p>
+                </div>
+                <div class="text-center">
+                  <i class="fa-solid fa-download fs-1"></i>
+                  <h3 class="mt-2">Free</h3>
+                  <p class="text-muted">
+                    As always, this game is free to download and playing!
+                    Are you ready to embark on an epic adventure? 
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <div class="text-center">
+                  <i class="fa-solid fa-gift fs-1"></i>
+                  <h3 class="mt-2">Redeem your gift card</h3>
+                  <p class="text-muted">
+                    With your gift card, you are getting 48 hours of unlimited
+                    lives, 3 free color bombs and 10% extra gold bars
+                  </p>
+                </div>
+                <div class="text-center mt-lg-5 mt-xl-0">
+                  <i class="fa-solid fa-business-time fs-1"></i>
+                  <h3 class="mt-2">Working at King</h3>
+                  <p class="text-muted">
+                    Together, we’ll create new experiences that raise the bar,
+                    delight millions of people and redefine the world of games.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Basic features section -->
+    <section class="bg-light">
+      <div class="container px-5">
+        <div
+          class="row gx-5 justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div class="col-lg-6 mt-5 col-12">
+            <h2 class="display-4 basicsection mb-3">
+              Candy Crush Saga series has received over 5.7 billion downloads
+            </h2>
+            <p class="text-muted fs-5 fw-normal">
+              The matching game played by millions on their commute, has reached
+              $20 billion in revenue since its 2012 launch, maker King said,
+              adding that it would soon release levels up to 15,000 for the most
+              dedicated players.
+            </p>
+          </div>
+          <div class="col-lg-6 mt-5 col-12 ">
+            <div class="px-5 mb-3">
+              <img
+                src="./assets/images/basic section.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to action -->
+    <div class="action-container px-5">
+      <div class="action-bg">
+        <div class="overlay">
+          <div class="container">
+            <h2 class="display-1 fw-normal text-white mt-5 pt-3">
+                Stop Waiting.
+                <br />
+                Start Playing.
+              </h2>
+              <button class="btn btn-outline-light px-4 py-3 rounded-5">Download for Free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- App the badge section -->
+       <section class="text-center badgesection" id="getApp">
+        <div class="container px-2 pt-5 pb-5">
+            <h2 class="text-white">Get the app now!</h2>
+            <div class="d-flex align-items-center justify-content-center flex-column d-lg-inline-block mt-5">
+                <a href="">
+                  <img
+                    src="./assets/images/app-store-badge.png"
+                    class="app-badge"
+                    alt=""
+                  />
+                </a>
+  
+                <a href="" class="ms-lg-3 mt-lg-0 mt-4">
+                  <img
+                    src="./assets/images/Google_Play_Store_badge_EN.svg.png"
+                    class="app-badge"
+                    alt=""
+                  />
+                </a>
+              </div>
+    
+        </div>
+       </section>
+       <!-- footer section -->
+        <footer class="bg-dark">
+            <div class="footer-container pt-5 pb-5 text-center">
+                <div class="text-white-50">
+                    © CAYLI Sude 2024. All Rights Reserved.
+                </div>
+                <div>
+                    <a href="" class="text-white-50 link-underline-dark">Privacy</a>
+                    <span class="mx-1">·</span>
+                    <a href="" class="text-white-50 link-underline-dark ">Terms</a>
+                    <span class="mx-1">·</span>
+                    <a href="" class="text-white-50 link-underline-dark">FAQ</a>
+                </div>
+
+            </div>
+        </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
